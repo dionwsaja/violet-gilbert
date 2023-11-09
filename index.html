@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gilbert and Violet</title>
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- css style link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts link -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=M+PLUS+Rounded+1c:wght@400;500;700&family=Poppins:wght@200;300;500&display=swap");
+    </style>
+
+    <!-- countdown link -->
+    <link
+      rel="stylesheet"
+      href="./countdown/simplyCountdown.theme.default.css"
+    />
+    <script src="./countdown/simplyCountdown.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- bootstrap icon lik -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- banner section start-->
+    <section
+      class="banner d-flex container-fluid p-sm-4 justify-content-center"
+    >
+      <div class="title align-self-center text-center text-light">
+        <h3 class="custom-h3-1" data-aos="fade-up" data-aos-duration="1000">
+          Kepada <span> Bapak/Ibu/Saudara/i, </span>
+        </h3>
+        <h1 class="custom-h1-1" data-aos="fade-up" data-aos-duration="1100">
+          Gilbert & Violet
+        </h1>
+        <h3 class="custom-h3-1" data-aos="fade-up" data-aos-duration="1200">
+          akan melangsungkan resepsi pernikahan dalam:
+        </h3>
+        <div
+          class="simply-countdown"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        ></div>
+        <a
+          href="#home"
+          class="btn custom-btn-1"
+          onClick="enableScroll()"
+          data-aos="fade-up"
+          data-aos-duration="1400"
+          >Lihat Undangan</a
+        >
+      </div>
+    </section>
+    <!-- baner section end -->
+
+    <!-- hero section start -->
+    <nav class="navbar custom-nav navbar-expand-lg sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#home"
+          style="font-family: var(--handWriting)"
+          >Gilbert & Violet</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title"
+              id="offcanvasNavbarLabel"
+              style="font-family: var(--handWriting); font-size: 2rem"
+            >
+              Gilbert & Violet
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Beranda</a>
+              <a class="nav-link" href="#info">Informasi Acara</a>
+              <a class="nav-link" href="#story">Cerita kami</a>
+              <a class="nav-link" href="#gallery">Galeri</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Hadiah</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 data-aos="fade-up" data-aos-duration="700">Acara Pernikahan</h2>
+            <h3 data-aos="fade-up" data-aos-duration="750">
+              Diselenggarakan pada 24 Desember 2023 di Surabaya, Jawa Timur.
+            </h3>
+            <p data-aos="fade-up" data-aos-duration="800">
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple mt-4">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3 data-aos="fade-up" data-aos-duration="700">
+                  Gilbert Bougainvillea
+                </h3>
+                <p data-aos="fade-up" data-aos-duration="900">
+                  Seorang mayor di pasukan Leidenschaftlich. Gilbert dilahirkan
+                  dalam keluarga kelas atas yang dipuja sebagai pahlawan
+                  nasional, keluarga Bougainvillea. Gilbert bergabung dengan
+                  Angkatan Darat Leidenschaftlich dan sejak mendaftar, dia telah
+                  diintegrasikan ke dalam unit penyerang tentara.
+                </p>
+              </div>
+
+              <div class="col-4">
+                <img
+                  src="images/gilbert.png"
+                  alt="Gilbert"
+                  class="img-responsive rounded-circle"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="images/violet.png"
+                  alt="Violet"
+                  class="img-responsive rounded-circle"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                />
+              </div>
+              <div class="col-8">
+                <h3 data-aos="fade-up" data-aos-duration="700">
+                  Violet Evergarden
+                </h3>
+                <p data-aos="fade-up" data-aos-duration="900">
+                  Violet adalah mantan tentara yang terdaftar di tentara
+                  Leidenschaftlich dan bertempur dalam perang, di mana dia
+                  diperlakukan hanya sebagai senjata. Violet menjadi Boneka
+                  Kenangan Otomatis di Perusahaan Pos CH setelah perang.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- info section start -->
+    <section class="info" id="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2 data-aos="fade-up" data-aos-duration="700">Informasi Acara</h2>
+            <p class="alamat mb-5" data-aos="fade-up" data-aos-duration="750">
+              Alamat: Graha PPAL <br />
+              Jl. Abdul Latif No.1, Komp. Kenjeran, Kec. Bulak, Surabaya
+            </p>
+            <iframe
+              class="mb-4 rounded-3"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1978.9953367572964!2d112.7931654!3d-7.241899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9c2336e3b9d%3A0xc240b552272ab905!2sGraha%20PPAL!5e0!3m2!1sen!2sid!4v1699467326057!5m2!1sen!2sid"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            ></iframe>
+            <a
+              href="https://maps.app.goo.gl/VNxLL86ox4PC3s12A"
+              target="_blank"
+              class="custom-btn-2"
+              data-aos="fade-up"
+              data-aos-duration="900"
+              >Klik untuk membuka peta</a
+            >
+            <p class="mt-4" data-aos="fade-up" data-aos-duration="850">
+              Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
+              tujuan namun tidak ada tanda-tanda sedang dilangsungkan
+              pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-sm-10">
+            <div
+              class="card text-center text-bg-light mb-4"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 24 Desember 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyukan seluruh prosesi
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-10">
+            <div
+              class="card text-center text-bg-light"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 24 Desember 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyukan seluruh prosesi
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info section end -->
+    <!-- story section start -->
+    <section class="story" id="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span data-aos="fade-up" data-aos-duration="700"
+              >Bagaimana Cinta Kami bersemi</span
+            >
+            <h2 data-aos="fade-up" data-aos-duration="750">Cerita Kami</h2>
+            <p data-aos="fade-up" data-aos-duration="800">
+              Kami bertemu dalam situasi perang di benua yang tengah dilanda
+              konflik. Gilbert adalah seorang letnan yang bertugas di unit
+              militer di mana Violet, yang saat itu masih seorang anak,
+              ditemukan. Gilbert kemudian mengambil Violet di bawah sayapnya dan
+              merawatnya. Kehidupan Violet sejak saat itu terkait erat dengan
+              Gilbert, dan hubungan mereka menjadi sentral dalam cerita Violet
+              Evergarden.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(./images/gallery/foto-1.png)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Kami bertemu di rumah kediaman Gilbert Bougainvillea. Saat
+                      itu Violet dipergunakan sebagai senjata perang, namun
+                      Gilbert tidak menyukai hal itu.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(./images/gallery/foto-2.png)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  <div class="timeline-heading">
+                    <h3>Semakin Dekat</h3>
+                    <span>11 juli 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Kedekatan Kami semakin dekat saat Mayor Gilbert memberi
+                      Violet Sebuah kalung.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(./images/gallery/foto-3.png)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  <div class="timeline-heading">
+                    <h3>Berpisah karena perang</h3>
+                    <span>19 Desember 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Kami sempat berpisah setelah peperang bersar melawan pihak
+                      musuh. Violet terbangun di rumah sakit dan menjalin rawat
+                      inap. Sementara Gilbert diduga telah meninggal dalam
+                      pertempuran, yang padahal Gilbert masih hidup namun
+                      melarikan diri ke pulau terpencil.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(./images/gallery/p2.jpg)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  <div class="timeline-heading">
+                    <h3>Kembali Bertemu</h3>
+                    <span>5 Februari 2008</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Kami kembali bertemu di sebuah pulau terpencil setelah 8
+                      tahun lamanya.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- story section end -->
+
+    <!-- gallery section start -->
+    <section class="gallery" id="gallery" style="padding-bottom: 5rem">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span data-aos="fade-up" data-aos-duration="700"
+              >Memori Kisah kami</span
+            >
+            <h2 data-aos="fade-up" data-aos-duration="750">Galeri Foto</h2>
+            <p data-aos="fade-up" data-aos-duration="800">
+              Berikut adalah beberapa foto kenangan kami selama ini.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+        >
+          <div class="col mt-3" data-aos="flip-left" data-aos-duration="900">
+            <a
+              href="./images/gallery/thumbnail/both.jpg"
+              data-toggle="lightbox"
+              data-gallery="myGallery"
+              data-caption="Violet & Gilbert 1"
+            >
+              <img
+                src="./images/gallery/thumbnail/both.jpg"
+                alt="Violet & Gilbert"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3" data-aos="flip-left" data-aos-duration="900">
+            <a
+              href="./images/gallery/thumbnail/p2.2.jpg"
+              data-toggle="lightbox"
+              data-gallery="myGallery"
+              data-caption="Violet & Gilbert 2"
+            >
+              <img
+                src="./images/gallery/thumbnail/p2.2.jpg"
+                alt="Violet & Gilbert"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3" data-aos="flip-left" data-aos-duration="900">
+            <a
+              href="./images/gallery/thumbnail/p3.3.jpg"
+              data-toggle="lightbox"
+              data-gallery="myGallery"
+              data-caption="Violet & Gilbert 3"
+            >
+              <img
+                src="./images/gallery/thumbnail/p3.3.jpg"
+                alt="Violet & Gilbert"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3" data-aos="flip-left" data-aos-duration="900">
+            <a
+              href="./images/gallery/thumbnail/p4.4.jpg"
+              data-toggle="lightbox"
+              data-gallery="myGallery"
+              data-caption="Violet & Gilbert 4"
+            >
+              <img
+                src="./images/gallery/thumbnail/p4.4.jpg"
+                alt="Violet & Gilbert"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery section end -->
+
+    <!-- rsvp section start -->
+    <section class="rsvp" id="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-med-8 col-10 text-center">
+            <h2 data-aos="fade-up" data-aos-duration="700">
+              Konfirmasi Kehadiran
+            </h2>
+            <p data-aos="fade-up" data-aos-duration="750">
+              Untuk mendata buku tamu kami. Maka diharapkan pada undangan
+              mengonfirmasi kehadiran terlebih dahulu.
+            </p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbxQ5J1NDSRXXmmFWlzANdLVjw07QGB8C3iDmTsJNkjyiLM7wfk_uTDswPwlZ93hxA-Ulg/exec"
+          id="my-form"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input
+                type="number"
+                class="form-control"
+                id="jumlah"
+                name="jumlah"
+                min="1"
+                max="5"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 31px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+
+        <div
+          class="row justify-content-center mt-5"
+          data-aos="fade-up"
+          data-aos-duration="850"
+        >
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+              (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://violet-garden.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rsvp section end -->
+
+    <!-- Gifts section start -->
+    <section class="gifts p-5" id="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <span data-aos="fade-up" data-aos-duration="700"
+              >ungkapan tanda kasih</span
+            >
+            <h2 data-aos="fade-up" data-aos-duration="750">Kirim Hadiah</h2>
+            <p data-aos="fade-up" data-aos-duration="800">
+              Kepada Undangan yang ingin memberi hadiah secara online, dapat
+              menggunakan layanan di bawah ini. (Untuk yang ingin memberi hadiah
+              secara langsung di tempat, juga dipersilahkan)
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-center text-center"
+          data-aos="fade-up"
+          data-aos-duration="850"
+        >
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="fw-bold">BCA</div>
+                123456 - Dion Wangsa
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">MANDIRI</div>
+                654321 - Dion Wangsa
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold mb-1">Saweria</div>
+                <img
+                  src="images/qr.png"
+                  alt="saweria QR"
+                  width="150px"
+                  class="img-thumbnail"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gifts section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2023 Wangsa Wedding. All Rights Reserved.</small
+            >
+            <small class="block"
+              >Design by
+              <a href="https://www.instagram.com/dionwsaja/" target="_blank"
+                >@dionwsaja</a
+              >.</small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="https://www.instagram.com/dionwsaja/" target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/dionwsaja" target="_blank"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/dion.wangsa.1" target="_blank"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/dion-wangsa-976b02282/"
+                  target="_blank"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- audio start -->
+    <div class="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/bgm.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+    <!-- audio end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- countdown JS -->
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2023,
+        month: 12,
+        day: 24,
+        hours: 8,
+        minutes: 0,
+        seconds: 0,
+        words: {
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
+        },
+      });
+    </script>
+    <script>
+      const offCanvas = document.querySelector(".navbar-toggler");
+      const stickyTop = document.querySelector(".sticky-top");
+      const btnClose = document.querySelector(".offcanvas");
+
+      offCanvas.addEventListener("click", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      btnClose.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+
+    <!-- lightbox cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- main.js script -->
+    <script src="main.js"></script>
+
+    <!-- inline JS alert RSVP -->
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi kehadiran berhasil terkirim!");
+          });
+        });
+      });
+    </script>
+
+    <!-- parameter  -->
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get("n") || "";
+      const pronoun = urlParams.get("p") || "Bapak/Ibu/Saudara/i";
+
+      const namaContainer = document.querySelector(".banner .title h3 span");
+      namaContainer.innerText = `${pronoun} ${nama},`.replace(/, $/, ",");
+
+      document.querySelector("#nama").value = nama;
+    </script>
+  </body>
+</html>
